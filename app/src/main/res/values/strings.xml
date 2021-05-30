@@ -2,6 +2,7 @@
     <string name="app_name">Movie Catalogue</string>
     <string name="movies">Movies</string>
     <string name="tvshows">Tv Shows</string>
+    <string name="favorites">Favorites</string>
     <string name="movie_title">Movie Title</string>
     <string name="movie_score">Movie Score</string>
     <string name="movie_synopsis">Movie Synopsis</string>
@@ -14,6 +15,7 @@
     <string name="total_episode">Total Episode %s</string>
     <string name="total_season">Total Season %s</string>
 
+
     <string name="tv_show_title">Tv Show Title</string>
     <string name="tv_show_score">Tv Show Score</string>
     <string name="tv_show_first_episode">Tv Show First Episode</string>
@@ -24,4 +26,11 @@
     <string name="tv_show_poster">Tv Show Poster</string>
     <string name="movie_poster">Movie Poster</string>
     <string name="movie_logo">Movie Logo</string>
+    <string name="movie_detail_poster">Movie Detail Posterr</string>
+    <string name="tv_show_detail_poster">Tv Show Detail Poster</string>
+    <string name="favorite_button">favorite_button</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="menu_movies">Movies</string>
+    <string name="menu_tv_shows">TvShows</string>
+    <string name="menu_favorites">Favorites</string>
 </resources>
