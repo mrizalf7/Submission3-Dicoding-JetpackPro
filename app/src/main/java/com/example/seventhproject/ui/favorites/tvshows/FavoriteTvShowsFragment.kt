@@ -36,7 +36,7 @@ class FavoriteTvShowsFragment: Fragment() {
             fragmentFavTvShowBinding.progressBar.visibility = View.GONE
 
             with(fragmentFavTvShowBinding.rvFavTvShows) {
-                layoutManager = GridLayoutManager(requireContext(),3)
+                layoutManager = GridLayoutManager(context,3)
                 setHasFixedSize(true)
                 adapter = tvFavShowsAdapter
             }

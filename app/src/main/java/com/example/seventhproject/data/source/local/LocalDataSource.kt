@@ -25,10 +25,8 @@ class LocalDataSource private constructor(private val mMovieDao: MoviesDAO)  {
     fun getAllTvShows(): DataSource.Factory<Int,TvShowsEntity> =
         mMovieDao.getTvShows()
 
-
     fun getFavoriteMovies(): DataSource.Factory<Int,MoviesEntity> =
         mMovieDao.getFavoriteMovies()
-
 
     fun getFavoriteTvShows(): DataSource.Factory<Int, TvShowsEntity> =
         mMovieDao.getFavoriteTvShows()
@@ -55,4 +53,6 @@ class LocalDataSource private constructor(private val mMovieDao: MoviesDAO)  {
         tvShow.favorite = !tvShow.favorite
         mMovieDao.updateTvShow(tvShow)
     }
+
+
 }

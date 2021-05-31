@@ -2,12 +2,10 @@
     <string name="app_name">Movie Catalogue</string>
     <string name="movies">Movies</string>
     <string name="tvshows">Tv Shows</string>
-    <string name="favorites">Favorites</string>
     <string name="movie_title">Movie Title</string>
     <string name="movie_score">Movie Score</string>
     <string name="movie_synopsis">Movie Synopsis</string>
     <string name="movie_release_date">Movie Release Date</string>
-
     <string name="release_date">Release Date %s</string>
     <string name="score">Score %s</string>
     <string name="first_episode">First Episode %s</string>

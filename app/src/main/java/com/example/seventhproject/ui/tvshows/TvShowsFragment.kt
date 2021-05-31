@@ -49,7 +49,39 @@ class TvShowsFragment: Fragment() {
             })
 
             with(fragmentTvShowBinding.rvTvShows) {
-                layoutManager = GridLayoutManager(requireContext(),3)
+                layoutManager = GridLayoutManager(context,3)
+                setHasFixedSize(true)
+                adapter = tvShowsAdapter
+            }
+        }
+    }
+
+    override fun onResume() {
+        super.onResume()
+        if (activity != null) {
+            val tvShowsAdapter = TvShowsAdapter()
+            val factory = ViewModelFactory.getInstance(requireActivity())
+            val viewModel = ViewModelProvider(this,factory)[TvShowsViewModel::class.java]
+            (activity as AppCompatActivity).supportActionBar?.title = "TvShows"
+
+            viewModel.getTvShows().observe(viewLifecycleOwner,{ tvShows->
+                if(tvShows!=null){
+                    when(tvShows.status){
+                        Status.LOADING ->fragmentTvShowBinding.progressBar.visibility = View.VISIBLE
+                        Status.SUCCESS -> {
+                            fragmentTvShowBinding.progressBar.visibility = View.GONE
+                            tvShowsAdapter.submitList(tvShows.data)
+                        }
+                        Status.ERROR ->{
+                            fragmentTvShowBinding.progressBar.visibility = View.GONE
+                            Toast.makeText(context, "Terjadi kesalahan", Toast.LENGTH_SHORT).show()
+                        }
+                    }
+                }
+            })
+
+            with(fragmentTvShowBinding.rvTvShows) {
+                layoutManager = GridLayoutManager(context,3)
                 setHasFixedSize(true)
                 adapter = tvShowsAdapter
             }

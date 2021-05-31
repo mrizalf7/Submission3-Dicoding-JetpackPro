@@ -30,8 +30,6 @@ class FavoriteMoviesFragment : Fragment() {
             val factory = ViewModelFactory.getInstance(requireActivity())
             val viewModel = ViewModelProvider(this, factory)[FavoriteMoviesViewModel::class.java]
 
-
-
             viewModel.getFavoriteMovies().observe(viewLifecycleOwner, { favMovies ->
 
                 favMovieAdapter.submitList(favMovies)
@@ -39,7 +37,7 @@ class FavoriteMoviesFragment : Fragment() {
             })
             fragmentFavMovieBinding.progressBar.visibility = View.GONE
             with(fragmentFavMovieBinding.rvFavMovie) {
-                layoutManager = GridLayoutManager(requireContext(),3)
+                layoutManager = GridLayoutManager(context,3)
                 setHasFixedSize(true)
                 adapter = favMovieAdapter
             }

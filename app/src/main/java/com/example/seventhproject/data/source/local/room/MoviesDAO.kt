@@ -22,22 +22,23 @@ interface MoviesDAO {
     @Query("SELECT * FROM tvShowsEntity where favorite = 1")
     fun getFavoriteTvShows(): DataSource.Factory<Int,TvShowsEntity>
 
+
     @Query("SELECT * FROM moviesEntity WHERE movieId = :movieId")
     fun getMovieById(movieId: String): LiveData<MoviesEntity>
 
     @Query("SELECT * FROM tvShowsEntity WHERE tvShowId = :tvShowId")
     fun getTvShowById(tvShowId: String): LiveData<TvShowsEntity>
 
-    @Insert(onConflict = OnConflictStrategy.REPLACE, entity = MoviesEntity::class)
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insertMovies(movies: List<MoviesEntity>)
 
-    @Insert(onConflict = OnConflictStrategy.REPLACE,entity = TvShowsEntity::class)
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insertTvShows(tvShows: List<TvShowsEntity>)
 
-    @Update(entity = MoviesEntity::class)
+    @Update
     fun updateMovie(movie: MoviesEntity)
 
-    @Update(entity = TvShowsEntity::class)
+    @Update
     fun updateTvShow(tvShow: TvShowsEntity)
 
 }

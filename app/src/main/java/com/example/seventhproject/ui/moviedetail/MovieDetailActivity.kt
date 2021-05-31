@@ -106,8 +106,6 @@ class MovieDetailActivity : AppCompatActivity() {
 
             menuItem?.icon = ContextCompat.getDrawable(this, R.drawable.ic_favorite_false)
         }
-
-
     }
 
     private fun showSnackBar(msg: String) {
