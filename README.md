@@ -8,7 +8,7 @@
 
 **TvShows:** 
 
-<img src="https://raw.githubusercontent.com/mrizalf7/Submission3-Dicoding-JetpackPro/main/screenshots/ss2.png width="250">
+<img src="https://raw.githubusercontent.com/mrizalf7/Submission3-Dicoding-JetpackPro/main/screenshots/ss2.png" width="250">
 
 **Liking a movie:**
 
