@@ -33,7 +33,7 @@
 **Unliking a tv show:**
 
 <img src="https://i.ibb.co/4jt8xrH/ss9.png" width="250">
-**UnLiked a tv show:**
+**Unliked a tv show:**
 <img src="https://i.ibb.co/5KFwdnM/ss10.png" width="250">
 
 *_________________________*
