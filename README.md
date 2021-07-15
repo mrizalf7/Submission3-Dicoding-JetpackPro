@@ -5,6 +5,7 @@
 
 **Movies:**
 ![](https://i.ibb.co/F61x2kf/ss1.png)
+<img src="https://i.ibb.co/F61x2kf/ss1.png" width="48">
 
 **TvShows:** 
 ![](https://i.ibb.co/W0BRbm8/ss2.png)
