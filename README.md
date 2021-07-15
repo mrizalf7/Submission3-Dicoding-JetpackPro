@@ -4,7 +4,7 @@
 
 **Movies:**
 
-<img src="https://i.ibb.co/F61x2kf/ss1.png" width="250">
+<img src="https://raw.githubusercontent.com/mrizalf7/Submission3-Dicoding-JetpackPro/main/screenshots/ss1.png" width="250">
 
 **TvShows:** 
 
