@@ -4,30 +4,37 @@
 ## 📸 Screenshots
 
 **Movies:**
-![](https://i.ibb.co/F61x2kf/ss1.png)
 <img src="https://i.ibb.co/F61x2kf/ss1.png" width="250">
 
 **TvShows:** 
-![](https://i.ibb.co/W0BRbm8/ss2.png)
+![]()
+<img src="https://i.ibb.co/W0BRbm8/ss2.png" width="250">
 
 **Liking a movie:**
-![](https://i.ibb.co/kJgLXyk/ss3.png)
+![]()
+<img src="https://i.ibb.co/kJgLXyk/ss3.png" width="250">
 
 **Liking a tv show:**
-![](https://i.ibb.co/dgG34CX/ss4.png)
+![]()
+<img src="https://i.ibb.co/dgG34CX/ss4.png" width="250">
 
 **Liked movies:**
-![](https://i.ibb.co/mzHFZDY/ss5.png)
+![]()
+<img src="https://i.ibb.co/mzHFZDY/ss5.png" width="250">
 **Liked tv show:**
-![](https://i.ibb.co/Sr06PRb/ss6.png)
+![]()
+<img src="https://i.ibb.co/Sr06PRb/ss6.png" width="250">
 **Unliking a movie:**
-![](https://i.ibb.co/qL8CRQY/ss7.png)
+![]()
+<img src="https://i.ibb.co/qL8CRQY/ss7.png" width="250">
 **Unliked a movie:**
-![](https://i.ibb.co/9NJvrHC/ss8.png)
+![]()
+<img src="https://i.ibb.co/9NJvrHC/ss8.png" width="250">
 **Unliking a tv show:**
-![](https://i.ibb.co/4jt8xrH/ss9.png)
+![]()
+<img src="https://i.ibb.co/4jt8xrH/ss9.png" width="250">
 **UnLiked a tv show:**
-![](https://i.ibb.co/5KFwdnM/ss10.png)
+<img src="https://i.ibb.co/5KFwdnM/ss10.png" width="250">
 
 
 *_________________________*
