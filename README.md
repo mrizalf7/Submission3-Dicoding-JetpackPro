@@ -3,6 +3,7 @@
 ## 📸 Screenshots
 
 **Movies:**
+
 <img src="https://i.ibb.co/F61x2kf/ss1.png" width="250">
 
 **TvShows:** 
