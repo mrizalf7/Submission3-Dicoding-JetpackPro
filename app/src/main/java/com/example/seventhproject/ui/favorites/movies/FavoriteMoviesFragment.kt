@@ -14,7 +14,6 @@ import com.example.seventhproject.viewmodel.ViewModelFactory
 
 class FavoriteMoviesFragment : Fragment() {
 
-
     private lateinit var fragmentFavMovieBinding:FragmentFavoriteMoviesBinding
     val favMovieAdapter = FavoriteMoviesAdapter()
 
@@ -30,11 +29,15 @@ class FavoriteMoviesFragment : Fragment() {
             val factory = ViewModelFactory.getInstance(requireActivity())
             val viewModel = ViewModelProvider(this, factory)[FavoriteMoviesViewModel::class.java]
 
-            viewModel.getFavoriteMovies().observe(viewLifecycleOwner, { favMovies ->
-
+            val k = viewModel.getFavoriteMovies().observe(viewLifecycleOwner, { favMovies ->
                 favMovieAdapter.submitList(favMovies)
-
             })
+            if(k!=null){
+                fragmentFavMovieBinding.textNoFavMovies.visibility = View.INVISIBLE
+            }
+            else
+                fragmentFavMovieBinding.textNoFavMovies.visibility = View.VISIBLE
+
             fragmentFavMovieBinding.progressBar.visibility = View.GONE
             with(fragmentFavMovieBinding.rvFavMovie) {
                 layoutManager = GridLayoutManager(context,3)

@@ -31,4 +31,6 @@
     <string name="menu_movies">Movies</string>
     <string name="menu_tv_shows">TvShows</string>
     <string name="menu_favorites">Favorites</string>
+    <string name="no_favorites_movies">There is no favorite movies yet</string>
+    <string name="no_tv_shows_yet">There is no favorite tv shows yet</string>
 </resources>

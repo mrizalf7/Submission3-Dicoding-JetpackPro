@@ -20,6 +20,7 @@ class MovieDetailActivity : AppCompatActivity() {
     companion object {
         const val EXTRA_MOVIE = "extra_movie"
     }
+
     private lateinit var movieId : String
     private lateinit var viewModel : MovieDetailViewModel
     private lateinit var movieDetailBinding:ActivityMovieDetailBinding
@@ -116,5 +117,4 @@ class MovieDetailActivity : AppCompatActivity() {
         onBackPressed()
         return super.onSupportNavigateUp()
     }
-
 }
